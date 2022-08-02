@@ -18,10 +18,10 @@ export function Contact() {
             <p> +6694-407-2333</p>
         </motion.div>
         <div className='contact-img'>
-            <a href='#'><img src={gitHubPic} /></a>
+            <a href={'https://github.com/Sung478'} target="_blank"><img src={gitHubPic} /></a>
             <a href='#'><img src={linkedInPic} /></a>
-            <a href='#'><img src={gmailPic} /></a>
-            <a href='#'><img src={facebookPic} /></a>
+            <a href={"mailto: manunchaya.dr@gmail.com"}><img src={gmailPic} /></a>
+            <a href={"#"}><img src={facebookPic} /></a>
         </div>
     </motion.section>
   )
