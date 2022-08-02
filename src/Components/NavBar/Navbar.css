@@ -1,0 +1,42 @@
+/* * {
+    /* box-sizing: content-box; 
+    border: 1px red solid;
+     margin: 0 
+} */
+
+.navBar {
+    background-color: #7FCDD8;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#icon {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#icon h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#icon img {
+    margin-right: 5px;
+    height: 2rem;
+}
+
+#navBar-link {
+    display: flex;
+}
+
+#navBar-link a {
+    margin-right: 30px;
+    text-decoration: none;
+}

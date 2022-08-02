@@ -1,0 +1,72 @@
+/* * {
+    border: red 1px solid;
+} */
+
+#home {
+    background-color: #C3E8F0;
+    height: 580px;
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#home h2 {
+    font-size: xx-large;
+    width: 60%;
+    z-index: 2
+}
+
+#home img {
+    position: absolute;
+    right: 6vw;
+    top: 6%;
+    width: 30%;
+}
+
+.self-intro {
+    height: 50%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#name { 
+    font-size: xx-large;
+    z-index: 2;
+}
+
+#home-quote {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#home-quote h2 {
+    font-family: 'Dancing Script', cursive;
+    max-width: 420px;
+    width: 100%
+}
+
+#home-quote h5 {
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    align-items: center;
+    max-width: 420px;
+    padding-right: 30px;
+    justify-content: end;
+    width: 100%
+}
+
+.self-intro button {
+    margin: 40px 40px 40px 0;
+    font-size: large;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+

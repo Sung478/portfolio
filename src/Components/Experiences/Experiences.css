@@ -1,0 +1,56 @@
+/* * {
+    border: 1px red solid;
+} */
+
+#experiences {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 10% 5% 10%;
+    background-color: rgba(195, 232, 240, 0.25);
+}
+
+#experiences h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#experiences div {
+    width: 100%;
+}
+
+.timeline {
+    display: block
+}
+
+.timeline img {
+ height: 20px;
+ margin-right: 10px;
+}
+
+#bundle {
+    display: flex;
+}
+
+#text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-left: grey 1px solid;
+    padding-left: 20px
+}
+
+#text h4 {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#text span {
+    margin-bottom: 20px;
+}
+
+#text li {
+font-size: 0.9rem;
+}
