@@ -19,14 +19,14 @@ export function NavBar () {
                 <motion.img src={navLogo} initial={{ rotate: 0 }} animate={{ rotate: 360 }} transition={{duration: 2, delay:0.5}} whileHover={{ borderRadius: "20%" }} />
                 <motion.h3 initial={{ scale: 2 }} animate={{ scale: 1 }} transition={{ type: "spring" }}><motion.a variants={motionList} whileHover="hoverMotion" href="#home" >Sung</motion.a></motion.h3>
             </motion.div>
-            <div id="navBar-link">
+            <motion.div id="navBar-link" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.5, delay: 3}}>
                 {/* <motion.a variants={motionList} whileHover="hoverMotion" href="#home"><p>Home</p></motion.a> */}
                 <motion.a variants={motionList} whileHover="hoverMotion" href="#aboutMe"><p>About Me</p></motion.a>
                 <motion.a variants={motionList} whileHover="hoverMotion" href="#experiences"><p>Experiences</p></motion.a>
                 <motion.a variants={motionList} whileHover="hoverMotion" href="#skills"><p>Skills</p></motion.a>
                 <motion.a variants={motionList} whileHover="hoverMotion" href="#projects"><p>Projects</p></motion.a>
                 <motion.a variants={motionList} whileHover="hoverMotion" href="#contact"><p>Contact</p></motion.a>
-            </div>
+            </motion.div>
         </motion.div>
     )
 }
