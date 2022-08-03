@@ -16,7 +16,7 @@
 }
 
 #icon {
-    margin-left: 20px;
+    margin-left: 20vw;
     display: flex;
     align-items: center;
 }
@@ -24,12 +24,12 @@
 #icon h3, #icon a {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 5rem;
 }
 
 #icon img {
     margin-right: 5px;
-    height: 2rem;
+    height: 7rem;
 }
 
 
