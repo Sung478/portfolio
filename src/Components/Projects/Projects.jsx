@@ -40,7 +40,7 @@ export function Projects() {
                 </div>
                 <div className='cardContent'>
                 <a href={'https://assigment-react2.vercel.app/'} target="_blank"><motion.h3 whileHover={linkHover}>Jammmig</motion.h3></a>
-                    <p>ceonnects to Spotyfy account and creates playlists</p>
+                    <p>connects to Spotyfy account and creates playlists</p>
                 </div>
             </motion.div>
             <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='card'>

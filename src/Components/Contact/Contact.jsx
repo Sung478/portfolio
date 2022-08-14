@@ -12,9 +12,9 @@ export function Contact() {
         <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 1 }}>
             <h2>Contact</h2>
             <h3><strong>Manunchaya Chongsutakawewong</strong></h3>
-            <p>Bangrak, Bangkok, Thailand</p>
-            <p> manunchayac.dr@gamil.com</p>
-            <p> Sung478.github.io</p>
+            <p> Bangrak, Bangkok, Thailand</p>
+            <p> manunchayac.dr@gmail.com</p>
+            <p> Sung478.github</p>
             <p> +6694-407-2333</p>
         </motion.div>
         <div className='contact-img'>
