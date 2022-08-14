@@ -19,7 +19,7 @@ export function Contact() {
         </motion.div>
         <div className='contact-img'>
             <a href={'https://github.com/Sung478'} target="_blank"><img src={gitHubPic} /></a>
-            <a href={'https://www.linkedin.com/in/manunchaya-chongsutakawewong-bb0545248/'}><img src={linkedInPic} /></a>
+            <a href={'https://www.linkedin.com/in/manunchaya-chongsutakawewong-bb0545248/'} target="_blank"><img src={linkedInPic} /></a>
             <a href={"mailto: manunchaya.dr@gmail.com"}><img src={gmailPic} /></a>
         </div>
     </motion.section>
