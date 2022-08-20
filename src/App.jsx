@@ -9,6 +9,7 @@ import { Experiences } from './Components/Experiences/Experiences'
 import { Skills } from './Components/Skills/Skills'
 import { Projects } from './Components/Projects/Projects'
 import { Contact } from './Components/Contact/Contact'
+import { ScrollBar } from './Components/ScrollBar/ScrollBar'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <ScrollBar/>
     </div>
   )
 }
