@@ -59,3 +59,35 @@
 a {
     text-decoration: none;
 }
+
+.link-to {
+    height: 2rem;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.link-to img{
+    height: 1.5rem;
+    margin-left: 10px;
+}
+
+.link-to a {
+    color: black;
+    text-decoration: none;
+}
+
+.link-to a:hover{
+    scale: 1.2;
+}
+
+#sharePic {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cardContent-head{
+    display: flex;
+    justify-content: space-between;
+}
