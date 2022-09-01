@@ -52,7 +52,7 @@ export function Projects() {
                                 <a href='https://github.com/Sung478/AssigmentReact2/tree/master/Jammming2' target="_blank"><img src='/github.png' /></a>
                             </div>
                         </div>
-                        <p>connects to Spotyfy account and creates playlists</p>
+                        <p>connects to Spotify account and creates playlists</p>
                     </div>
                 </motion.div>
                 <motion.div variants={cardMotion} whileHover="cardHover" initial="cardNormal" className='card'>
